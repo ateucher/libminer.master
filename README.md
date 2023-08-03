@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/ateucher/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ateucher/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -30,7 +32,7 @@ library(libminer)
 lib_summary()
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/_f/n9fw7ctx3fqf2ty9ylw502g80000gn/T/RtmpTxIv1Z/temp_libpath17e816c6e95f9
+#> 2 /private/var/folders/_f/n9fw7ctx3fqf2ty9ylw502g80000gn/T/RtmpTxIv1Z/temp_libpath17e8111f3ca5d
 #> 3                                                       /Users/andy/Library/R/arm64/4.3/library
 #>   n_packages
 #> 1         29
@@ -40,7 +42,7 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                         Library
 #> 1                          /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/_f/n9fw7ctx3fqf2ty9ylw502g80000gn/T/RtmpTxIv1Z/temp_libpath17e816c6e95f9
+#> 2 /private/var/folders/_f/n9fw7ctx3fqf2ty9ylw502g80000gn/T/RtmpTxIv1Z/temp_libpath17e8111f3ca5d
 #> 3                                                       /Users/andy/Library/R/arm64/4.3/library
 #>   n_packages   lib_size
 #> 1         29   71351828
