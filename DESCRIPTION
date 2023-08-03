@@ -13,8 +13,11 @@ RoxygenNote: 7.2.3
 URL: https://github.com/ateucher/libminer, http://andyteucher.ca/libminer/
 BugReports: https://github.com/ateucher/libminer/issues
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     fs,
     purrr
+VignetteBuilder: knitr
