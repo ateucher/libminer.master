@@ -2,12 +2,16 @@
 #'
 #' Provides a brief summary of the package libraries on your machine
 #'
+#' @param sizes Should the sizes of the libraries be calculated?
+#'   Logical; default `FALSE`.
+#'
 #' @return A data.frame containing the count of packages in each of the user's
-#'   libraries
+#'   libraries. A `size` column is included if `sizes = TRUE`.
 #' @export
 #'
 #' @examples
 #' lib_summary()
+#' lib_summary(sizes = TRUE)
 lib_summary <- function(sizes = FALSE) {
   pkgs <- utils::installed.packages()
   pkg_tbl <- table(pkgs[, "LibPath"])
